@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FileChooser } from '@ionic-native/file-chooser/ngx';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +8,14 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  constructor(
+    private fileChooser: FileChooser,
+  ) {}
+
+  chooseFile(){
+    this.fileChooser.open()
+    .then(uri => console.log(uri))
+    .catch(e => console.log(e));
+  }
 
 }

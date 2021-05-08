@@ -9,7 +9,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "cap-run" : "ionic cap sync && ionic cap run android"
   },
   "private": true,
   "dependencies": {
@@ -21,7 +22,10 @@
     "@angular/router": "~11.2.0",
     "@capacitor/android": "^2.4.7",
     "@capacitor/core": "2.4.7",
+    "@ionic-native/core": "^5.32.1",
+    "@ionic-native/file-chooser": "^5.32.1",
     "@ionic/angular": "^5.5.2",
+    "cordova-plugin-filechooser": "^1.2.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
