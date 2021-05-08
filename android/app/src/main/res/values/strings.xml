@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">EnHausse-Zipper</string>
+    <string name="title_activity_main">EnHausse-Zipper</string>
+    <string name="package_name">in.enhausse.zipper</string>
+    <string name="custom_url_scheme">in.enhausse.zipper</string>
+</resources>
