@@ -1,0 +1,7 @@
+{
+  "name": "EnHausse-Zipper",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
