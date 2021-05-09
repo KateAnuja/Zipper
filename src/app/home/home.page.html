@@ -8,10 +8,10 @@
 
 <ion-content [fullscreen]="true">
   <ion-button (click)="chooseFile()">Choose File</ion-button>
-  <ion-list *ngFor="let file of filesArray">
-    <ion-item>
+  <ion-list>
+    <ion-item *ngFor="let file of filesArray">
       {{file}}
     </ion-item>
   </ion-list>
-  <ion-button (click)="zipFile()">Make Zip</ion-button>
+  <ion-button (click)="unZipFile()">UnZip</ion-button>
 </ion-content>
